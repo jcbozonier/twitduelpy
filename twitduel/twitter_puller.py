@@ -7,6 +7,6 @@ from twitter import Twitter
 
 test = Twitter()
 test.username = "darkxanthos"
-test.password = "K230184J"
+test.password = "mypw"
 
 print test.statuses.friends_timeline()[0]
